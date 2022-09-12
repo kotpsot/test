@@ -10,6 +10,16 @@
  * @authorId 174868361040232448
 */
 
+@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
+
+/* Bottom HorizontalServerList. Simply remove the comments surrounding the @import to enable it. */
+/* @import url("https://discordstyles.github.io/Addons/bottomhsl.css"); */
+
+:root {
+  --HSL-server-icon-size: 55px;  /* Size of the server icons | DEFAULT: 40px */
+  --HSL-server-spacing: 5px;  /* Spacing between each server icon | DEFAULT: 10px */
+}
+
 @import url("https://raw.githubusercontent.com/hyblocker/pixelcord/v4/modules/appearance/icons/shapes/squircle.css");
 :root {
     --background-primary: rgba(35, 35, 35, 0.35);
