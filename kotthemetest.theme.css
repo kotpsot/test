@@ -24,7 +24,7 @@
   --background-image-size: cover;
   --background-image-position: center;
   --popout-modal-image: transparent;
-  --popout-modal-blur: 0px;
+  --popout-modal-blur: 1px;
   --popout-modal-size: 1;
   --popout-modal-position: top center;
   --home-button-image: url('https://i.imgur.com/gtHTnmy.gif');
@@ -35,14 +35,14 @@
   --middle-brightness: 0.5;
   --right-brightness: 0;
   --popout-modal-brightness: 0.5;
-  --gradient-primary: 255,235,130;
-  --gradient-secondary: 125,71,249;
+  --gradient-primary: #E30218FF
+  --gradient-secondary: #42B531FF
   --link-colour: #00B3FF;
   --scrollbar-colour: rgb(255,221,156,0.32);
   --gradient-direction: 320deg;
   --tint-colour: 255,51,159;
   --tint-brightness: 0;
-  --font: Comfortaa;
+  --font: Whitney;
   --window-padding: 0px;
   --window-roundness: 0px;
   --update-notice-1: none;
