@@ -11,15 +11,6 @@
 */
 
 @import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
-
-/* Bottom HorizontalServerList. Simply remove the comments surrounding the @import to enable it. */
-/* @import url("https://discordstyles.github.io/Addons/bottomhsl.css"); */
-
-:root {
-  --HSL-server-icon-size: 55px;  /* Size of the server icons | DEFAULT: 40px */
-  --HSL-server-spacing: 5px;  /* Spacing between each server icon | DEFAULT: 10px */
-}
-
 @import url("https://raw.githubusercontent.com/hyblocker/pixelcord/v4/modules/appearance/icons/shapes/squircle.css");
 :root {
     --background-primary: rgba(35, 35, 35, 0.35);
@@ -33,6 +24,8 @@
     --text-link: rgba(255, 0, 0, 0.7);
     --background-accent: rgba(255, 0, 0, 0.5);
     --deprecated-quickswitcher-input-background: rgba(68, 68, 68, 0.6);
+    --HSL-server-icon-size: 55px;  /* Size of the server icons | DEFAULT: 40px */
+    --HSL-server-spacing: 5px;  /* Spacing between each server icon | DEFAULT: 10px */
     /* --background-floating: rgba(32, 32, 32, .7);*/
     /* --background-modifier-selected */
 }
