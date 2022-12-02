@@ -1,11 +1,11 @@
 :root{
---HSL-server-icon-size: 55px;
---HSL-server-spacing: 5px;
---background-secondary: none;   
---main-app-transparency:rgba(0, 0, 0, 0.63);
---main-app-blur:blur(5px);
+    --HSL-server-icon-size: 55px;
+    --HSL-server-spacing: 5px;
+    --background-secondary: none;   
+    --main-app-transparency:rgba(0, 0, 0, 0.63);
+    --main-app-blur:blur(5px);
 /*Default Blur:10px; Recommended Blur: 10px-60px;*/
---main-bg-image: url(https://images2.alphacoders.com/560/56082.jpg);
+    --main-bg-image: url(https://images2.alphacoders.com/560/56082.jpg);
 }
 /*Change `link here` to desired image*/
 /*Image in screenshot `https://cdn.mos.cms.futurecdn.net/VYL4qGFcAUvq4G9sFNExDB.jpg`*/
