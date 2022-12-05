@@ -23,6 +23,14 @@ body::before {
     background: none !important;
 }
 
+.theme-dark, .theme-light {
+    --background-primary: none;
+    --background-secondary: none;
+    --background-secondary-alt: #0000008a;
+    --background-tertiary: #21212146;
+    --background-message-hover: none;
+}
+
 .scrollableContainer-15eg7h {
     background-color: transparent;
     max-height: 144px;
@@ -32,13 +40,12 @@ body::before {
     box-shadow: none!important;
 }
 
+.panels-3wFtMD {
+  background-color: transparent;
+}
+
 :root{
     --bg-image: url(https://i.imgur.com/kySAcZt.jpg);
-    --background-primary: none;
-    --background-secondary: none;
-    --background-secondary-alt: none;
-    --background-tertiary: #21212144;
-    --background-message-hover: none;
     --bg-blur: 30px;
     --bg-opacity: 1.0;
     --HSL-server-icon-size: 55px;
