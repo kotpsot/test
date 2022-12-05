@@ -1,19 +1,15 @@
-@import url(https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css);
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 @import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
 
 ::placeholder, body, button, input, select, textarea {
 font-family: 'Comfortaa' ;
 }
-
-:root {
-    --HSL-server-icon-size: 55px;  /* Size of the server icons | DEFAULT: 40px */
-    --HSL-server-spacing: 5px;  /* Spacing between each server icon | DEFAULT: 10px */
-    --bg-blur: 30px;
-    --bg-opacity: .5;
-    --bg-image: url("https://i.imgur.com/kySAcZt.jpg");
+#app-mount {
+    background-image: var(--bg-image) !important;
+    background-repeat: none;
+    background-position: center;
 }
-    
 body::before {
     content: "";
     position: fixed;
@@ -26,17 +22,15 @@ body::before {
 #app-mount, [class*="sidebar-"] + div {
     background: none !important;
 }
-.theme-dark {
-    --background-primary: transparent;
-    --background-secondary: transparent;
-    --background-secondary-alt: transparent;
-    --background-tertiary: transparent;
-}
-/* Make sticky headers readable when scrolling down, mostly the role perms menu */
-[class*="stickyHeader"] {
-    background-color: rgba(0, 0, 0, 0.312);
-    padding: 20px;
-    top: 10px;
-    margin-top: 10px;
-    border-radius: 12px;
+:root{
+    --bg-image: url(https://i.imgur.com/kySAcZt.jpg);
+    --background-primary: none;
+    --background-secondary: none;
+    --background-secondary-alt: none;
+    --background-tertiary: #21212144;
+    --background-message-hover: none;
+    --bg-blur: 30px;
+    --bg-opacity: 1.0;
+    --HSL-server-icon-size: 55px;
+    --HSL-server-spacing: 5px;
 }
