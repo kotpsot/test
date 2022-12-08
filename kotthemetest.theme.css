@@ -5,11 +5,7 @@
 ::placeholder, body, button, input, select, textarea {
 font-family: 'Comfortaa' ;
 }
-#app-mount {
-    background-image: var(--bg-image) !important;
-    background-repeat: none;
-    background-position: center;
-}
+
 body::before {
     content: "";
     position: fixed;
@@ -19,15 +15,12 @@ body::before {
     background-image: var(--bg-image);
     filter: blur( var(--bg-blur) ) opacity( var(--bg-opacity) );
 }
-#app-mount, [class*="sidebar-"] + div {
-    background: none !important;
-}
 
 .theme-dark, .theme-light {
     --background-primary: none;
     --background-secondary: none;
     --background-secondary-alt: #0000008a;
-    --background-tertiary: #21212146;
+    --background-tertiary: #21212100;
     --background-message-hover: none;
 }
 
