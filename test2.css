@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
+:root {
+    --background: url("https://i.imgur.com/kySAcZt.jpg");
+    --background-filter: blur(30px);
+    --background-tint: transparent;
+    /* gives the background a little bit of color */
+    --accent-color: 200, 250, 250;
+    /* sets the accent color of the app */
+    --transparency: .69;
+    /* master transparency */
+    --min-transparency: .82;
+
+    --background-primary: unset;
+    --background-secondary: rgba(var(--background-tint), max(calc(var(--transparency) / 2), var(--min-transparency)));
+    --background-secondary-alt: rgba(var(--background-tint), max(calc(var(--transparency) / 2 + .1), var(--min-transparency)));
+    --background-tertiary: rgba(var(--background-tint), max(calc(var(--transparency) / 1.5 + .1, var(--min-transparency))));
+    --background-expanding-tab: rgba(var(--background-tint), 1);
+    --background-modifier-accent: none;
+    --HSL-server-icon-size: 55px;
+    --HSL-server-spacing: 5px;
+}
+::placeholder, body, button, input, select, textarea {
+font-family: 'Comfortaa' ;
+}
+
+/* styles the scrollbar */
+::-webkit-scrollbar,
+::-webkit-scrollbar-track {
+    background: none !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(var(--accent-color), max(calc(var(--transparency) / 2), var(--min-transparency))) !important;
+}
+
+/* sets the background image and blur the background */
+#app-mount .bg-1QIAus {
+    background-image: var(--background);
+    background-position: center;
+    background-size: cover;
+    filter: var(--background-filter);
+}
+
+/* sets the background tint and transparency */
+#app-mount .layers-OrUESM {
+    background: rgba(var(--background-tint), max(var(--transparency), var(--min-transparency)));
+}
+
