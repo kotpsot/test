@@ -6,16 +6,6 @@
 font-family: 'Comfortaa' ;
 }
 
-body::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-size: cover;
-    background-position: center;
-    background-image: var(--bg-image);
-    filter: blur(30px);
-}
-
 :root{
     --bg-image: url(https://i.imgur.com/kySAcZt.jpg);
     --HSL-server-icon-size: 55px;
@@ -27,6 +17,15 @@ body::before {
     --background-floating: transparent;
 }
 
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: var(--bg-image);
+    filter: blur(30px);
+}
 
 .panels-3wFtMD, .scrollableContainer-15eg7h {
   background-color: transparent;
