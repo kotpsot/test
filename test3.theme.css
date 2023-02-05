@@ -25,7 +25,7 @@ body{
 background:var(--main-bg-image);
 background-position: cover;
 background-repeat: no-repeat;
-background-size: 100%;
+background-size: 110%;
 }
 #app-mount{
 background-color:var(--main-app-transparency)!important;
