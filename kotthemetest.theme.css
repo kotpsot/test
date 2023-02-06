@@ -17,7 +17,7 @@ body::before {
 }
 
 .theme-dark, .theme-light {
-    --background-primary: none;
+    --background-primary: transparent;
     --background-secondary: none;
     --background-secondary-alt: #0000008a;
     --background-tertiary: #21212100;
