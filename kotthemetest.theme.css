@@ -24,17 +24,21 @@ body::before {
     --background-message-hover: none;
 }
 
-.scrollableContainer-15eg7h {
-    background-color: transparent;
-    max-height: 144px;
-    border-radius: 13px;
-    position: relative;
-    bottom: 2px;
-    box-shadow: none!important;
+.panels-3wFtMD {
+      margin-right: 5px;
+      margin-bottom: 20px;
+      margin-left: 5px;
+      border: 1px solid #3a3f45;
+      border-radius: 20px;
+      box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
 }
 
-.panels-3wFtMD {
-  background-color: transparent;
+
+.theme-dark .scrollableContainer-15eg7h {
+    background: transparent;
+    border: 1px solid #3a3f45;
+    border-radius: 20px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
 }
 
 :root{
