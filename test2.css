@@ -21,7 +21,7 @@ body::before {
     background-image: var(--bg-image);
     filter: blur( var(--bg-blur) ) opacity( var(--bg-opacity) );
 }
-#app-mount, [class*="sidebar-"] + div {
+#app-mount{
     background: none !important;
 }
 .theme-dark, .theme-light {
@@ -30,11 +30,4 @@ body::before {
     --background-secondary-alt: transparent;
     --background-tertiary: transparent;
 }
-/* Make sticky headers readable when scrolling down, mostly the role perms menu */
-.theme-dark, .theme-light {
-    background-color: rgba(0,0,0,0.7);
-    padding: 20px;
-    top: 10px;
-    margin-top: 10px;
-    border-radius: 12px;
-}
+
