@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
+
+::placeholder, body, button, input, select, textarea {
+font-family: 'Comfortaa' ;
+}
+    
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: var(--bg-image);
+    filter: blur( var(--bg-blur) ) opacity( var(--bg-opacity) );
+}
+
+#app-mount{
+    background: none !important;
+}
+
+
+.panels-3wFtMD {
+      margin-right: 5px;
+      margin-bottom: 20px;
+      margin-left: 5px;
+      border: 1px solid #3a3f45;
+      border-radius: 20px;
+      box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+}
+
+.scrollableContainer-15eg7h {
+    background: rgba(0, 0, 0, 0.45);
+    border: 1px solid #3a3f45;
+    border-radius: 20px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+}
+/*OPCJE*/
+:root {
+    --bg-blur: 0px;
+    --bg-opacity: 0.4;
+    --bg-image: url(https://wallpapercave.com/wp/wp10776123.jpg);
+    --HSL-server-icon-size: 55px;
+    --HSL-server-spacing: 5px;
+    --background-primary: transparent;
+    --background-secondary: transparent;
+    --background-secondary-alt: transparent;
+    --background-tertiary: transparent;
+}
