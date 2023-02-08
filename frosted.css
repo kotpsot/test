@@ -1,6 +1,13 @@
 @import url('https://slippinggittys-discord-Themes.github.io/Espresso-Discord-Theme/themes/source.css');
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css");
 @import url("https://slippinggitty-s-discord-things.github.io/Discord-MaterialSymbols-Icons/producticons.theme.css");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
+
+::placeholder, body, button, input, select, textarea {
+font-family: 'Comfortaa' ;
+}
 
 body {
   background-image: url("https://files.catbox.moe/tmem5v.jpg") ; /* Replace this URL with one that points to your desired background image */
