@@ -44,7 +44,18 @@ body::before {
     --HSL-server-icon-size: 55px;
     --HSL-server-spacing: 5px;
     --background-primary: transparent;
-    --background-secondary: transparent;
+    --background-secondary: rgb(0, 0, 0, 0.3);
     --background-secondary-alt: transparent;
     --background-tertiary: transparent;
+    --background-accent: #4f545c;
+    --background-floating: transparent;
+    --background-mobile-primary: #36393f;
+    --background-mobile-secondary: #2f3136;
+    --background-modifier-hover: rgb(255, 255, 255, 0.05);
+    --background-modifier-active: rgb(255, 255, 255, 0.07);
+    --background-modifier-selected: rgb(255, 255, 255, 0.1);
+    --background-modifier-accent: rgb(255, 255, 255, 0.1);
+    --background-mentioned: rgb(250, 166, 26, 0.05);
+    --background-mentioned-hover: rgb(250, 166, 26, 0.08);
+    --background-message-hover: rgb(4, 4, 5, 0.07);
 }
