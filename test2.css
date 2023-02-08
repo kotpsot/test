@@ -1,50 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 @import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
 @import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
-:root {
-    --background: url("https://i.imgur.com/kySAcZt.jpg");
-    --background-filter: blur(30px);
-    --background-tint: transparent;
-    /* gives the background a little bit of color */
-    --accent-color: 200, 250, 250;
-    /* sets the accent color of the app */
-    --transparency: .69;
-    /* master transparency */
-    --min-transparency: .82;
 
-    --background-primary: unset;
-    --background-secondary: rgba(var(--background-tint), max(calc(var(--transparency) / 2), var(--min-transparency)));
-    --background-secondary-alt: rgba(var(--background-tint), max(calc(var(--transparency) / 2 + .1), var(--min-transparency)));
-    --background-tertiary: rgba(var(--background-tint), max(calc(var(--transparency) / 1.5 + .1, var(--min-transparency))));
-    --background-expanding-tab: rgba(var(--background-tint), 1);
-    --background-modifier-accent: none;
-    --HSL-server-icon-size: 55px;
-    --HSL-server-spacing: 5px;
-}
 ::placeholder, body, button, input, select, textarea {
 font-family: 'Comfortaa' ;
 }
 
-/* styles the scrollbar */
-::-webkit-scrollbar,
-::-webkit-scrollbar-track {
+:root {
+    --bg-blur: 10px;
+    --bg-opacity: .1;
+    --bg-image: url("https://wallpapercave.com/wp/wp10776123.jpg);
+}
+    
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: var(--bg-image);
+    filter: blur( var(--bg-blur) ) opacity( var(--bg-opacity) );
+}
+#app-mount, [class*="sidebar-"] + div {
     background: none !important;
 }
-
-::-webkit-scrollbar-thumb {
-    background-color: rgba(var(--accent-color), max(calc(var(--transparency) / 2), var(--min-transparency))) !important;
+.theme-dark, .theme-light {
+    --background-primary: transparent;
+    --background-secondary: transparent;
+    --background-secondary-alt: transparent;
+    --background-tertiary: transparent;
 }
-
-/* sets the background image and blur the background */
-#app-mount .bg-1QIAus {
-    background-image: var(--background);
-    background-position: center;
-    background-size: cover;
-    filter: var(--background-filter);
+/* Make sticky headers readable when scrolling down, mostly the role perms menu */
+.theme-dark, .theme-light {
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px;
+    top: 10px;
+    margin-top: 10px;
+    border-radius: 12px;
 }
-
-/* sets the background tint and transparency */
-#app-mount .layers-OrUESM {
-    background: rgba(var(--background-tint), max(var(--transparency), var(--min-transparency)));
-}
-
