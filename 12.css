@@ -31,7 +31,7 @@ body::before {
 }
 
 .theme-dark .scrollableContainer-15eg7h {
-    background: rgba(0, 0, 0, 0.45);
+    background: transparent;
     border: 1px solid #3a3f45;
     border-radius: 20px;
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
@@ -41,9 +41,6 @@ body::before {
     background: transparent;
 }
 
-.container-iA3Qrz {
-    background: transparent;
-}
 /*OPCJE*/
 :root {
     --bg-blur: 0px;
