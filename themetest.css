@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
+
+::placeholder, body, button, input, select, textarea {
+font-family: 'Comfortaa' ;
+}
+
+:root {
+    --bg-blur: 10px;
+    --bg-opacity: .1;
+    --bg-image: url(https://wallpapercave.com/wp/wp10776123.jpg);
+}
+    
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: var(--bg-image);
+    filter: blur( var(--bg-blur) ) opacity( var(--bg-opacity) );
+}
+#app-mount{
+    background: none !important;
+}
+.theme-dark, .theme-light {
+    --background-primary: transparent;
+    --background-secondary: transparent;
+    --background-secondary-alt: transparent;
+    --background-tertiary: transparent;
+}
