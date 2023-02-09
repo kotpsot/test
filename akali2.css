@@ -1,0 +1,44 @@
+/**
+ * @name Vermeil in gold
+ * @author WhyZerVellasskx
+ * @version b1V1
+ * @description the best theme in anime Vermeil in gold
+ * @source https://github.com/WhyZerVellasskx/Vermeil-in-gold-theme-BetterDiscord
+ */
+
+@import url('https://rawcdn.githack.com/WhyZerVellasskx/Vermeil-Theme-Better-Disocrd/feff46aa45e1b7694352701b4d96186c88d0252a/transparency2.css');
+@import url('https://rawcdn.githack.com/WhyZerVellasskx/Vermeil-Theme-Better-Disocrd/44c7186b148644b80ac4100e7e77f74f3694e37e/core.css');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@100;300;400;500;700&display=swap');
+@import url("https://mrtipson.github.io/DiscordCSS/css/server-bar.css");
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
+::placeholder, body, button, input, select, textarea {
+font-family: 'Comfortaa' ;
+}
+
+:root{
+    --background: url('https://wallpapercave.com/wp/wp10776123.jpg');
+    --activetext-colour: white;
+
+    --primary1-colour: rgb(149, 57, 255);
+    --primary2-colour: rgba(225, 75, 255, 0.671);
+    --primary3-colour: rgba(186, 67, 255, 0.6);
+
+    --secondary1-colour: rgba(50,50,50,0.3);
+    --secondary2-colour: rgba(50,50,50,0.3);
+    --secondary3-colour: rgba(50,50,50,0.3);
+
+    --transparency-1: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    --transparency-2: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    --transparency-3: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    --transparency-4: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    --transparency-5: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+  
+/*
+Theme Owned and Made by WhyZerVellasskx
+  
+Background Img: https://i.imgur.com/5r724sK.png
+Transparency2 Module: https://rawcdn.githack.com/WhyZerVellasskx/Vermeil-Theme-Better-Disocrd/feff46aa45e1b7694352701b4d96186c88d0252a/transparency2.css
+
+*/
