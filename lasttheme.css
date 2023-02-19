@@ -1,0 +1,55 @@
+@import url("https://mrtipson.github.io/DiscordCSS/css/server-bar.css");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@100;300;400;500;700&display=swap');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
+::placeholder, body, button, input, select, textarea {
+font-family: 'Comfortaa' ;
+}
+
+.app-2CXKsg {
+    display: transparent;
+    opacity: 1.1;
+}
+
+#app-mount {
+    background-image: var(--bg) !important;
+    background-repeat: none;
+    background-position: center;
+}
+
+:root {
+    /*
+    https://www.reddit.com/r/oneshot/comments/ghzwj1/made_my_own_version_of_the_wallpaper_from_the/
+    */
+    --bg: url(https://wallpapercave.com/wp/wp10776123.jpg);
+    --background-primary: #11111100;
+    --background-secondary: #11111100;
+    --background-secondary-alt: #11111100;
+    --background-tertiary: #1111116b;
+    --background-message-hover: #22222200;
+
+}
+
+.peopleColumn-1wMU14, .resultsGroup-1BPR25, .listing-gF29cM {
+    background-color: var(--background-primary) !important;
+}
+
+.panels-3wFtMD {
+      margin-right: 5px;
+      margin-bottom: 20px;
+      margin-left: 5px;
+      border: 1px solid #3a3f45;
+      border-radius: 20px;
+      box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+}
+
+.theme-dark .scrollableContainer-15eg7h {
+    background: transparent;
+    border: 1px solid #3a3f45;
+    border-radius: 20px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+}
+
+.container-ZMc96U.themed-Hp1KC_ {
+    background: transparent;
+}
