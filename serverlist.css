@@ -1,0 +1,32 @@
+.base-2jDfDU {
+    position: absolute;
+    left: 0px;
+    top: 72px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.guilds-2JjMmN {
+    transform-origin: top left;
+    transform: rotate(-90deg);
+    height: 100vw !important;
+    width: 5%;
+    top: 7%;
+    bottom: 0%;
+    position: absolute !important;
+}
+
+.guilds-2JjMmN .listItem-3SmSlK .wrapper-2PSQCG {
+    transform: rotate(90deg);
+}
+
+.guilds-2JjMmN .svg-2ifYOU, .wrapper-2PSQCG {
+    width: 55px;
+    height: 55px;
+}
+
+.pill-2RsI5Q {
+    position: absolute;
+    left: 0px;
+    top: 4px;
+}
