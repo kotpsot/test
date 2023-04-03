@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
+.bg-1QIAus {
+    background: var(--bg-appimage);
+    background-position: center;
+    background-size: 1920px auto;
+    text-rendering: auto;
+    filter: blur( var(--bg-blur) ) brightness( var(--bg-opacity) );
+}
+
+.layers-OrUESM{
+    margin: 10px;
+}
+
+.theme-dark, .theme-light {
+    --brand-experiment-600: #b715f7;
+    --brand-experiment-560: #b715f7;
+    --search-popout-option-fade: transparent;
+    --status-positive-background: #b715f7;
+    --red-400: #b715f7;
+    --green-360: #af15f7;
+    --background-modifier-selected: #ca15f759;
+    --mention-background: #a415f7fb;
+    --mention-foreground: #000000;
+    --background-accent: #af15f7af;
+    --background-floating: #030007f3;
+    --background-mentioned: #ca15f731;
+    --background-primary: transparent;
+    --background-secondary: transparent;
+    --background-secondary-alt: transparent;
+    --background-tertiary: transparent;
+    --background-message-hover: transparent;
+    --background-message-highlight: #c215f742;
+    --bg-overlay-selected: #a415f771;
+    --brand-experiment: #c215f763;
+    --button-secondary-background: #c215f742;
+    --channeltextarea-background: transparent;
+    --channels-default: #fffdff81;
+    --channel-icon: #e706fc7a;
+    --header-primary: #f015f788;
+    --header-secondary: #eeeeeef3;
+    --home-background: transparent;
+    --info-warning-foreground: transparent;
+    --interactive-active: #fefeff;
+    --interactive-hover: #a415f7;
+    --interactive-muted: #651196;
+    --interactive-normal: #ffffffb6;
+    --modal-background: #030007f3;
+    --modal-footer-background: #030007f3;
+    --profile-avatar-border-color: #00000093;
+    --primary-630: #030007f3;
+    --primary-600: transparent;
+    --text-link: #af15f7;
+    --text-normal: #e8e4eef3;
+    --text-brand: #a76bca8f;
+    --status-danger: #7410b6af;
+    --scrollbar-auto-thumb: #a415f7;
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: var(--background-primary);
+    --scrollbar-auto-track: var(--background-primary);
+}
+
+.messagesPopoutWrap-3zryHW, .contentWrapper-3vHNP2, .wrapper-3u51GQ, .container-18GwIk, .userPopoutInner-1hXSeY:before, .overlayBackground-1KgwVi {
+    background: #030007f3;
+}
+
+.mainCard-3KBsBI, .container-2qVG6q:hover {
+    background-color: var(--background-modifier-selected);
+}
+
+.panels-3wFtMD {
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    border: 1px solid #3a3f45;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+}
+
+.scrollableContainer-15eg7h {
+    border: 1px solid #3a3f45;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+    margin-right: -12px;
+    margin-bottom: 20px;
+    margin-left: -12px;
+}
+
+.scroller-kQBbkU {
+    background: transparent;
+    border: 1px solid #3a3f45;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+    bottom: 17px;
+    left: 5px;
+    right: 5px;
+    top: 7px;
+}
+.scroller-1ox3I2 {
+    border: 1px solid #3a3f45;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+    margin-bottom: 5px;
+    margin-top: 5px;
+  
+}
+
+.container-2o3qEW {
+    border: 1px solid #3a3f45;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+    margin-top: 7px;
+    margin-right: 5px;
+    height: 96.4%;
+}
+.container-ZMc96U {
+    border: 1px solid #3a3f45;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+    margin-left: 5px;
+    width: 99.2%;
+}
+
+.header-3OsQeK {
+    border: 1px solid #3a3f45;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+}
+
+.scroller-WSmht3 {
+    border: 1px solid #3a3f45;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+    margin-bottom: 5px;
+}
+
+.searchBar-3TnChZ {
+    border: 1px solid #3a3f45;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+    margin-bottom: 5px;
+}
+
+.searchResultsWrap-5RVOkx {
+    border: 1px solid #3a3f45;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+    height: 96.5%;
+    margin-right: 6px;
+    margin-top: 7px;
+}
+
+.base-2jDfDU {
+    position: absolute;
+    left: 0px;
+    top: 72px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.guilds-2JjMmN {
+    transform-origin: top left;
+    transform: rotate(-90deg);
+    height: 100vw !important;
+    top: 65px;
+    left: 10px;
+    position: absolute !important;
+}
+
+.guilds-2JjMmN .listItem-3SmSlK .wrapper-2PSQCG {
+    transform: rotate(90deg);
+}
