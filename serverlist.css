@@ -1,3 +1,14 @@
+:root {
+    --bg-blur: 0px;
+    --bg-opacity: 0.7;
+    --font-primary: "Montserrat";
+    --font-display: "Montserrat";
+    --HSL-server-icon-size: 55px;
+    --HSL-server-spacing: 5px;    
+}
+
+
+
 .base-2jDfDU {
     position: absolute;
     left: 0px;
